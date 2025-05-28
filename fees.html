@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Calculator</title>
+    <script src="fees.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header class="index-header">
+        <nav>
+            <a href="index.html"><img src="images/Logo2.jpg" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="courses.html">SIX-MONTH COURSES</a></li>
+                    <li><a href="week-courses.html">SIX-WEEK COURSES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="fees.html">TOTAL FEES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="form-container">
+        <h1>Request a Course Booking</h1>
+        <form id="courseForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <h3>Select Courses:</h3>
+            <div class="courses">
+                <input type="checkbox" id="firstAid" name="course" value="1500">
+                <label for="firstAid">First Aid (R1500)</label><br>
+
+                <input type="checkbox" id="sewing" name="course" value="1500">
+                <label for="sewing">Sewing (R1500)</label><br>
+
+                <input type="checkbox" id="landscaping" name="course" value="1500">
+                <label for="landscaping">Landscaping (R1500)</label><br>
+
+                <input type="checkbox" id="lifeSkills" name="course" value="1500">
+                <label for="lifeSkills">Life Skills (R1500)</label><br>
+
+                <input type="checkbox" id="childMinding" name="course" value="750">
+                <label for="childMinding">Child Minding (R750)</label><br>
+
+                <input type="checkbox" id="cooking" name="course" value="750">
+                <label for="cooking">Cooking (R750)</label><br>
+
+                <input type="checkbox" id="gardenMaintenance" name="course" value="750">
+                <label for="gardenMaintenance">Garden Maintenance (R750)</label><br>
+            </div>
+
+            <button type="button" id="calculateButton">Calculate Total</button>
+        </form>
+
+        <h2 id="quote">Total Fee (Quote): R0</h2>
+    </div>
+
+    <script src="script.js"></script>
+    <br>
+    <br>
+    <footer class="footer">
+        <div class="footer-info">
+            <h2>Empowering the Nation</h2>
+            <p>
+                Empowering the Nation is a community-driven SME founded by Precious Radebe, dedicated to providing skills training for domestic workers and gardeners.
+            </p>
+            <p>
+                Phone: +27 11 123 4567 <br>
+                Email: info@empoweringthenation.co.za
+            </p>
+        </div>
+        <div class="footer-links">
+            <a href="index.html">HOME</a>
+            <a href="courses.html">COURSES</a>
+            <a href="week-courses.html">SIX-WEEK COURSES</a>
+            <a href="about.html">ABOUT</a>
+            <a href="fees.html">TOTAL FEES</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </footer>
+</body>
+</html>
