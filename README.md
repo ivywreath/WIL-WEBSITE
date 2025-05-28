@@ -124,5 +124,7 @@ The total fees page is a page where it prompts the user to choose the course(s) 
  
  
 The last page on the website is the contact page. On this page we have the phone number of the company and the email address. It also shows the venues of the company in Centurion, Soweto and Midrand. The maps are live location as soon as you click on them, they take you to a map where you can get directions. Below are the screenshots of the functionality. 
- 
+ Below are the links for the youtube videos of the walk-through of the app and the website
+ For the App https://youtu.be/uJcxTE_kbMc
+ For the Website https://youtu.be/JO1oA-lHd9Y
  
